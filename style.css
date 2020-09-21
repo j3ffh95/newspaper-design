@@ -67,3 +67,25 @@ nav a:hover {
   background: #000;
   color: #fff;
 }
+
+.row {
+  display: flex;
+}
+
+.col {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.col:not(:last-child) {
+  border-right: 2px solid #c4c4c4;
+}
+
+main p {
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+
+main h3 {
+  margin-top: 0;
+}
