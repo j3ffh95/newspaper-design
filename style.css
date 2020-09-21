@@ -89,3 +89,18 @@ main p {
 main h3 {
   margin-top: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col:not(:last-child) {
+    border-bottom: 2px solid #c4c4c4;
+    border-right: none;
+  }
+
+  main h3 {
+    text-align: center;
+  }
+}
